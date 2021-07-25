@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: php-redis
-        image: alphabravoio/guestbook:1.0.7
+        image: alphabravoio/guestbook:1.0.8
         resources:
           requests:
             cpu: 100m
