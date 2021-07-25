@@ -17,7 +17,7 @@ metadata:
   name: helm
   namespace: fleet-default
 spec:
-  repo: https://github.com/rancher/fleet-examples
+  repo: https://github.com/AlphaBravoCompany/ab-fleet-examples
   paths:
   - multi-cluster/helm
   targets:
