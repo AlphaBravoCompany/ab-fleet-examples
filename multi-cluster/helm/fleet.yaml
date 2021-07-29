@@ -8,19 +8,12 @@ targetCustomizations:
     matchLabels:
       env: dev
 
-- name: test
-  helm:
-    values:
-      replicas: 3
-  clusterSelector:
-    matchLabels:
-      env: test
-
 - name: prod
   helm:
     values:
-      serviceType: LoadBalancer
-      replicas: 3
+      replication: false
+      imageName: alphabravoio/hello-world:latest
   clusterSelector:
     matchLabels:
       env: prod
+

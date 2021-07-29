@@ -1,3 +1,4 @@
 replication: true
 replicas: 1
 serviceType: NodePort
+imageName: alphabravoio/guestbook:1.0.16
